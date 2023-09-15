@@ -1,0 +1,61 @@
+.listItems {
+  display: flex;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+
+.todoWrraper {
+ color: black;
+ width:100vw;
+ max-width: 40vw;
+ background-color: beige;
+ text-align: center;
+} 
+
+.header{
+  display: flex;
+  margin: 40px  130px;
+}
+
+.todoContainer {
+  height: 100vh;
+  width: 100vw;
+  background: #293029;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width:200px;
+  height: 30px;
+}
+
+button {
+  height: 36px;
+  padding:5px;
+}
+
+ul {
+  margin-left: 130px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+li{
+  background: cadetblue;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+
+    word-break: break-word;
+    align-items: center;
+    margin-bottom:2px;
+}
+
+input{
+  margin-left:0px;
+}
